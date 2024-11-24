@@ -1,8 +1,8 @@
-# Portfolio
+# Portfolio👩‍💻
 
 Welcome to my personal portfolio! This website showcases my academic achievements, skills, projects, and provides insights into my journey as an aspiring Data Science Engineer. I am currently pursuing my Bachelor of Technology in CSE-AI&DS at Shri Vishnu Engineering College For Women.
 
-## Table of Contents
+## Table of Contents📑
 
 - [About Me](#about-me)
 - [Technology Stack](#technology-stack)
@@ -10,20 +10,20 @@ Welcome to my personal portfolio! This website showcases my academic achievement
 - [Resume](#resume)
 - [Contact](#contact)
 
-## About Me
+## About Me👋
 
 I am Yallabandi Lakshmi Sowmya, a passionate Computer Science and Engineering student with a specialization in Artificial Intelligence and Data Science. I have a strong foundation in programming languages, data structures, and algorithms. Along with my technical skills, I possess excellent communication and teamwork abilities, which I’ve demonstrated through various academic and extracurricular activities.
 
 I am eager to learn and explore new technologies and strive to apply my knowledge to real-world problems, especially in the fields of Data Science and AI.
 
 
-## Resume
+## Resume📄
 
 You can download my most recent resume from the following link:
 
 - [Download Resume](https://drive.google.com/uc?export=download&id=14gQxKluPqVOkNqYgblJQ3MyKbL99-OvJ)
 
-## Contact
+## Contact📬
 
 Feel free to reach out to me for any collaborations, opportunities, or just to connect:
 
