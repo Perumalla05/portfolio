@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sowmya Portfolio</title>
+
+    <!-- Tailwind CSS --> 
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+
+    <!-- Custom Styles -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f5f5f5;
+            color: #4b4b4b;
+        }
+
+        .highlight-text {
+            color: #8bc990;
+        }
+
+        .image-border {
+            border: 2px solid #8bc990;
+            border-radius: 25%;
+            box-shadow: 0 0 20px rgba(139, 201, 144, 0.5), 0 0 30px rgba(139, 201, 144, 0.7);
+            transition: box-shadow 0.3s ease-in-out;
+        }
+
+        .image-border:hover {
+            box-shadow: 0 0 40px rgba(139, 201, 144, 0.7);
+        }
+
+        .timeline-section {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+
+        .timeline-box {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            text-align: center;
+        }
+
+        .timeline-box h4 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .timeline-box p {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .timeline-box strong {
+            color: #8bc990;
+        }
+
+        .bg-white-800 {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .bg-white-800:hover {
+            transform: translateY(-10px);
+            /* Move the card slightly upwards */
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            /* Add a shadow for a lifted effect */
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .typing-animation {
+            display: inline-block;
+            white-space: nowrap;
+            /* Ensures text stays on one line */
+            overflow: hidden;
+            /* Hides the overflow for the typing effect */
+            border-right: 2px solid #8bc990;
+            /* Cursor effect */
+            animation: typing 3s steps(40, end), blink 0.6s step-end infinite;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+
+        @keyframes blink {
+            from {
+                border-color: transparent;
+            }
+            to {
+                border-color: #8bc990;
+            }
+        }
+    </style>
+<body>
+    <header class="bg-8bc990 py-4 px-8 flex justify-between items-center" style="background-color: #8bc990;">
+        <h1 class="text-3xl font-bold text-white">Yallabandi Lakshmi Sowmya</h1>
+        <nav>
+            <ul class="flex space-x-6 text-lg font-medium">
+                <li><a class="hover:text-gray-200 text-white" href="#about-me">About Me</a></li>
+                <li><a class="hover:text-gray-200 text-white" href="#technology">Technology</a></li>
+                <li><a class="hover:text-gray-200 text-white" href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Main Content -->
+    <main class="p-8">
+        <!-- Introduction Section -->
+        <section class="bg-white p-8 rounded-lg shadow-lg mb-8">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-2/3">
+                    <h2 class="text-4xl font-bold highlight-text typing-animation" id="typing-line">Hello! I am Yallabandi Lakshmi Sowmya!</h2>
+
+                    <h3 class="text-2xl text-gray-600 mt-2">Aspiring Data Science Engineer</h3>
+                    <p class="mt-4 text-lg text-gray-700">
+                        Highly skilled in programming languages with a strong foundation in data structures. Completed a successful internship showcasing practical application of programming expertise. Proficient in English communication with demonstrated leadership qualities. Possesses excellent teamwork skills.
+                    </p>
+                    <button class="mt-4 bg-8bc990 text-white py-2 px-4 rounded-full hover:bg-green-700" style="background-color: #8bc990;">
+                        <a href="https://drive.google.com/uc?export=download&id=14gQxKluPqVOkNqYgblJQ3MyKbL99-OvJ" class="text-white">Download Resume</a>
+                    </button>
+                    <div class="mt-4 flex space-x-4">
+                        <a> </a>
+                        <a class="text-gray-800 text-3xl hover:text-8bc990" href="https://www.linkedin.com/in/yallabandi-lakshmi-sowmya/">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a class="text-gray-800 text-3xl hover:text-8bc990" href="https://github.com/yallabandi07">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a class="text-gray-800 text-3xl hover:text-8bc990" href="mailto:yallabandi07@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Image Section -->
+                <div class="md:w-1/3 mt-8 md:mt-0 flex justify-center">
+                    <img src="assets/images/passport_size.jpeg" alt="Profile picture of Sowmya" class="image-border w-64 h-64 object-cover" width="256" height="256" />
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me with Timeline Section -->
+        <section id="about-me" class="bg-white p-8 rounded-lg shadow-lg mb-8">
+            <h3 class="text-4xl font-bold highlight-text">About Me</h3>
+            <p class="mt-4 text-lg text-gray-700">
+                I'm from Bhimavaram, Andhra Pradesh. I am currently in my pre-final year studying Bachelor of Technology in CSE-AI&DS at SVECW. With a strong academic record, evidenced by a CGPA of 9.32.
+            </p>
+
+            <!-- Timeline -->
+            <div class="timeline-section">
+                <!-- Timeline Items -->
+                <div class="timeline-box">
+                    <h4 class="font-semibold">Matriculation (SSC)</h4>
+                    <p>Tirumala English Medium School</p>
+                    <p><strong>Completed:</strong> 99% Percentage (2019-2020)</p>
+                    <p><strong>AP-POLYCET</strong> State Rank: 211</p>
+                </div>
+                <div class="timeline-box">
+                    <h4 class="font-semibold">Pre-University (Intermediate-MPC)</h4>
+                    <p>Tirumala Junior College</p>
+                    <p><strong>Completed:</strong> 97.20% Percentage (2020-2022)</p>
+                    <p><strong>JEE-MAINS:</strong> Scored 93.89% Percentile</p>
+                </div>
+                <div class="timeline-box">
+                    <h4 class="font-semibold">Bachelor of Technology (CSE-AI&DS)</h4>
+                    <p>Shri Vishnu Engineering College for Women</p>
+                    <p><strong>Graduation:</strong> 2026</p>
+                    <p><strong>AP-EAPCET</strong> State Rank: 2869</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Technology Section -->
+        <section id="technology" class="bg-white p-8 rounded-lg shadow-lg mt-8">
+            <h3 class="text-4xl font-bold highlight-text mb-8">Technology</h3>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <!-- Technology Items -->
+                <div class="text-center p-6 bg-gray-100 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+                    <i class="fab fa-python text-5xl mb-2"></i>
+                    <h4 class="text-xl font-semibold">Python</h4>
+                </div>
+                <div class="text-center p-6 bg-gray-100 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+                    <i class="fas fa-code text-5xl mb-2"></i>
+                    <h4 class="text-xl font-semibold">C</h4>
+                </div>
+                <div class="text-center p-6 bg-gray-100 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+                    <i class="fab fa-java text-5xl mb-2"></i>
+                    <h4 class="text-xl font-semibold">Java</h4>
+                </div>
+                <div class="text-center p-6 bg-gray-100 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+                    <i class="fab fa-html5 text-5xl mb-2"></i>
+                    <h4 class="text-xl font-semibold">HTML</h4>
+                </div>
+                <div class="text-center p-6 bg-gray-100 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+                    <i class="fab fa-css3-alt text-5xl mb-2"></i>
+                    <h4 class="text-xl font-semibold">CSS</h4>
+                </div>
+                <div class="text-center p-6 bg-gray-100 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+                    <i class="fab fa-js-square text-5xl mb-2"></i>
+                    <h4 class="text-xl font-semibold">JavaScript</h4>
+                </div>
+                <div class="text-center p-6 bg-gray-100 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+                    <i class="fas fa-brain text-5xl mb-2"></i>
+                    <h4 class="text-xl font-semibold">Machine Learning</h4>
+                </div>
+                <div class="text-center p-6 bg-gray-100 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+                    <i class="fas fa-database text-5xl mb-2"></i>
+                    <h4 class="text-xl font-semibold">SQL</h4>
+                </div>
+                <div class="text-center p-6 bg-gray-100 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+                    <i class="fas fa-project-diagram text-5xl mb-2"></i>
+                    <h4 class="text-xl font-semibold">Data Structures</h4>
+                </div>
+                <div class="text-center p-6 bg-gray-100 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+                    <i class="fab fa-node-js text-5xl mb-2"></i>
+                    <h4 class="text-xl font-semibold">Node.js</h4>
+                </div>
+                <div class="text-center p-6 bg-gray-100 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+                    <i class="fas fa-chart-line text-5xl mb-2"></i>
+                    <h4 class="text-xl font-semibold">R</h4>
+                </div>
+                <div class="text-center p-6 bg-gray-100 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+                    <i class="fas fa-paint-brush text-5xl mb-2"></i>
+                    <h4 class="text-xl font-semibold">Canva</h4>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Projects Section -->
+        <section id="projects" class="bg-white p-8 rounded-lg shadow-lg mt-8">
+            <h3 class="text-4xl font-bold highlight-text mb-8">Projects</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <!-- Project Cards -->
+
+                <!-- Project 1 -->
+                <div class="bg-white-800 p-8 rounded-lg shadow-lg">
+                    <img src="assets/images/building_note.png" alt="Building Notepad project screenshot" class="w-full h-64 object-cover mb-6" height="600" width="700" />
+                    <h2 class="text-3xl font-bold mb-4">Building Note</h2>
+                    <p class="text-black-400 mb-6">
+                        Created a Python project aimed at enhancing conventional notepads with advanced functionalities such as text-to-speech. The phases involved include note creation, modification, converting text to speech, securing notes, and deletion.
+                    </p>
+                    <div class="flex space-x-8">
+                        <a class="mt-4 bg-8bc990 text-white py-2 px-4 rounded hover:bg-green-700" style="background-color: #8bc990;" href="https://gitlab.com/yallabandi07/wise">Checkout GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bg-white-800 p-8 rounded-lg shadow-lg">
+                    <img src="assets/images/news_report.png" alt="News Report project screenshot" class="w-full h-64 object-cover mb-6" height="600" width="700" />
+                    <h2 class="text-3xl font-bold mb-4">News Report</h2>
+                    <p class="text-black-400 mb-6">
+                        An interactive news platform offering features such as homepage display and category selection customized to user preferences. Implemented using Node.js,HTML/CSS/JavaScript, SQLite.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a class="mt-4 bg-8bc990 text-white py-2 px-4 rounded hover:bg-green-700" style="background-color: #8bc990;" href="https://gitlab.com/yallabandi07/news_report">Checkout GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="bg-white-800 p-8 rounded-lg shadow-lg">
+                    <img src="assets/images/smart_bottle.png" alt="Smart Bottle project screenshot" class="w-full h-64 object-cover mb-6" height="600" width="700" />
+                    <h2 class="text-3xl font-bold mb-4">Smart Bottle</h2>
+                    <p class="text-black-400 mb-6">
+                        A smart IoT system that tracks fluid and electrolyte levels in hospitals, sending instant notifications to medical personnel when levels drop. Built with Arduino, sensors, and wireless modules.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a class="mt-4 bg-8bc990 text-white py-2 px-4 rounded hover:bg-green-700" style="background-color: #8bc990;" href="https://gitlab.com/yallabandi07/smart_bottle">Checkout GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="bg-white-800 p-8 rounded-lg shadow-lg">
+                    <img src="assets/images/calorie_burn_prediction.png" alt="screenshot" class="w-full h-64 object-cover mb-6" height="600" width="700" />
+                    <h2 class="text-3xl font-bold mb-4">Calories Burnt Prediction</h2>
+                    <p class="text-black-400 mb-6">
+                        A machine learning project that predicts calories burned during physical activities based on features like age, weight, duration, and activity type. It uses regression techniques for accurate and personalized fitness insights.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a class="mt-4 bg-8bc990 text-white py-2 px-4 rounded hover:bg-green-700" style="background-color: #8bc990;" href="https://gitlab.com/yallabandi07/calorie_burnt_prediction"> Checkout GitHub</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-8bc990 py-4 px-8" style="background-color: #8bc990;">
+        <p class="text-xl font-bold text-white text-center">&copy; 2024 Yallabandi Lakshmi Sowmya. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
