@@ -16,24 +16,6 @@ I am Yallabandi Lakshmi Sowmya, a passionate Computer Science and Engineering st
 
 I am eager to learn and explore new technologies and strive to apply my knowledge to real-world problems, especially in the fields of Data Science and AI.
 
-## Technology Stack
-
-Here are the technologies I have worked with:
-
-- **Languages**: Python, Java, C++
-- **Web Technologies**: HTML5, CSS3, JavaScript, Tailwind CSS
-- **Frameworks & Libraries**: React, Node.js, TensorFlow
-- **Tools & Databases**: Git, GitHub, MySQL, MongoDB
-- **Other**: Microsoft Excel, Power BI
-
-## Projects
-
-I have worked on several projects that demonstrate my ability to solve complex problems using technology. Some notable projects include:
-
-1. **Project 1**: Description of the project, the technologies used, and any significant outcomes or achievements.
-2. **Project 2**: Description of the project, the technologies used, and any significant outcomes or achievements.
-
-For detailed information about these projects, feel free to explore the repository.
 
 ## Resume
 
