@@ -21,7 +21,7 @@ I am eager to learn and explore new technologies and strive to apply my knowledg
 
 You can download my most recent resume from the following link:
 
-- [Download Resume](https://drive.google.com/uc?export=download&id=1AhdTrNUex7pRjrVSoZZfdoD6HpYleb_h)
+- [Download Resume](https://drive.google.com/uc?export=download&id=1J5TtaGUtHkXNP3f4YYbf4ChaMvprQPDo)
 
 ## Contact📬
 
